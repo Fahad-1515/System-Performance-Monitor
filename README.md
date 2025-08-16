@@ -50,22 +50,32 @@ $sudo nano /etc/systemd/system/system_monitor.service
 Paste:
 ----------------------------------------------------
 [Unit]
+
 Description=System Performance Monitor
+
 After=network.target
 
 [Service]
+
 Type=simple
+
 ExecStart=/home/user/scripts/system_monitor.sh
+
 Restart=always
+
 User=root
 
 [Install]
+
 WantedBy=multi-user.target
+
 Start and enable the service:
 
 -----------------------------------------------
 To Make Run it Every Time as System Reboot
 
 $sudo systemctl daemon-reload
+
 $sudo systemctl start system_monitor
+
 $sudo systemctl enable system_monitor
