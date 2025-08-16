@@ -22,17 +22,21 @@ To Run via cron
 Add to root’s crontab (sudo crontab -e):
 
 bash
+
 *****/home/user/scripts/system_monitor.sh >/dev/null 2>&1                     
 
 Test the Script
 Simulate high RAM usage:
 
 bash:
+
 stress-ng --vm 1 --vm-bytes 90% --vm-method all -t 1m
 Check logs:
 
 bash:
+
 tail -f /var/log/system_monitor.log
+
 Example output:
 
 text
