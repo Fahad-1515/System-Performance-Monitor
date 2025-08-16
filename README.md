@@ -22,7 +22,7 @@ To Run via cron
 Add to root’s crontab (sudo crontab -e):
 
 bash
-* * * * * /home/user/scripts/system_monitor.sh >/dev/null 2>&1                     
+*****/home/user/scripts/system_monitor.sh >/dev/null 2>&1                     
 
 Test the Script
 Simulate high RAM usage:
