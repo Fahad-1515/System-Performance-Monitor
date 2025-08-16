@@ -1,6 +1,5 @@
 #!/bin/bash
 # System Performance Monitor & OOM Killer
-# Usage: Run as root in background (e.g., via systemd)
 
 # Thresholds (adjust as needed)
 MAX_RAM_PERCENT=90  # Kill if RAM usage >90%
