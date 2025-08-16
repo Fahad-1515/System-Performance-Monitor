@@ -41,8 +41,8 @@ Example output:
 
 test
 
-[2024-03-15 12:00:00] OK: RAM usage at 45% (Threshold: 90%)
+[2025-06-18 12:00:00] OK: RAM usage at 45% (Threshold: 90%)
 
-[2024-03-15 12:00:30] WARNING: RAM usage at 95% - Identifying top process...
+[2025-06-18 12:00:30] WARNING: RAM usage at 95% - Identifying top process...
 
-[2024-03-15 12:00:30] Killing process: stress-ng (PID: 1234, RAM: 85%)
+[2025-06-18 12:00:30] Killing process: stress-ng (PID: 1234, RAM: 85%)
